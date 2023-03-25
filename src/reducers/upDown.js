@@ -1,6 +1,6 @@
 const initialState = 0;
 const changeTheNumber = (state = initialState, action) => {
-  let text = "sea1";
+  let text = "sea12";
   switch (action.type) {
     case "INCREMENT":
       return state + action.payloadinc;
